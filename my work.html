@@ -1,45 +1,93 @@
 <!DOCTYPE html>
-<html>
-   <head>
+<html lang="en">
+<head>
+   
+    <title>My Work</title>
     <link rel="stylesheet" href="styles.css">
-      <title> </title>
-      <h1>My Work</h1>
+    <style>
+       
+        h1 {
+          text-align: center;
+        }
 
-      <h2>The Beauty Cult</h2>
-    </head>
+        h2 {text-align: left;
+          margin-top: 30px; 
+        }
 
-    <body>
-      <style>
+        .topnav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .topnav a {
+            text-decoration: none;
+            color: black;
+        }
+        .topnav a.active {
+            font-weight: bold;
+        }
+        
         .container {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
         }
-        
-        img {
-          max-width: 50%;
-          max-height: 50%;
-          float: left;
+        .content-block {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 800px;
         }
-        
-        .text {
-          font-size: 20px;
-          padding-left: 10px;
-          padding-top: 10%;
-          float: left;
+       
+        .content-block img {
+            max-width: 200px;
+            height: auto;
         }
-        </style>
-        <body>
-          <div class="container">
-            <div class="image">
-              <img src="visual argument copy.png">
+      
+        .content-block .text {
+            font-size: 20px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Work</h1>
+
+    <div class="topnav">
+        <a href="index.html">About</a>
+        <a class="active" href="my_work.html">My Work</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <h2>The Beauty Cult</h2>
+
+    <div class="container">
+     
+        <div class="content-block">
+            <img src="visual argument copy.png">
+            <div class="text">
+                <p>The Beauty Cult addresses the unrealistic beauty standards and pressures that society puts on women. These unrealistic expectations are perpetuated through media, advertising, and societal norms and are a constant source of noise. These expectations can cause negative effects on mental-health, self-esteem, and identity.</p>
             </div>
+        </div>
+
+    
+        <h2>Morning Coffee</h2>
+
+        <div class="content-block">
+            <img src="coffee.jpg">
+            <audio controls>
+                <source src="soundscape narrative.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+
             <div class="text">
 
-              <p>The Beauty Cult addresses the unrealistic beauty standards and pressures that society puts on women. These unrealistic expectations are perpetuated through media, advertising, and societal norms and are a constant source of noise. These expectations can cause negative effects on mental-health, self-esteem and identity. 
-            </p>
-             
-            <a href="Web Portfolio.html">Home</a></ul>
- 
-   </body>
+                <p>Morning coffee is a soundscape narrative that recreates the feeling and environment that I experienced of making coffee with my mom in the mornings. This narrative immerses the listener into the experience through the sounds of making the coffee, and by setting the mood with laughter, conversation, and music. </p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
