@@ -1,7 +1,23 @@
   h1 {
-    color: pink;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color: #aac4ee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
   }
   p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  .topnav {
+    background-color: rgb(255, 209, 216);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.topnav a {
+  text-decoration: none;
+  color: black;
+}
+.topnav a.active {
+  font-weight: bold;
+}
