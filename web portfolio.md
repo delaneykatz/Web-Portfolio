@@ -1,3 +1,3 @@
 Delaney Katz
 
-My web portfolio is going to show off my work in digital media. I am interested in working in digital marketing and this is going to be a presentation of my work and me as a marketer. 
+My web portfolio is going to show off my work in digital media. I am interested in working in digital marketing and this is going to be a presentation of my work and me as a marketer. I am including three pages in my web portfolio, the main page is an about me page, including information on my education and future career goals. I then have a page showcasing my work from the earlier projects in the semester, including the visual argument and soundscape narrative, lastly I have a contact page. 
